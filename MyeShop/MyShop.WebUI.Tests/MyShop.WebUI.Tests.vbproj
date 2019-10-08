@@ -115,12 +115,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MyShop.WebUI\MyShop.WebUI.vbproj">
-      <Project>{0109BE59-CDA0-4D54-AEEB-4D5B96755AA6}</Project>
-      <Name>MyShop.WebUI</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
